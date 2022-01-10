@@ -60,9 +60,4 @@ public class Tijd
 	public Tijd copyTijd(){
 		return new Tijd(this.uur, this.minuut, this.seconde);
 	}
-	
-	@Override
-	public String toString() {
-		return String.format("%02d:%02d:%02d", uur,minuut,seconde);
-	}    	
 }
